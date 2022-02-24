@@ -3,9 +3,10 @@
 int main(){
      using namespace std;
      double area;
-     cout << "Enter the floor area, in square feet,of your ho11me： ";
+     cout << "Enter the floor area, in square feet,of your home： ";
      cin >> area;
      double side;
+     //sqrt获得数字的平方根
      side = sqrt(area);
      cout << "That's the equivalent of a square" << side << endl;
      cout << "How fascinating" << endl;
